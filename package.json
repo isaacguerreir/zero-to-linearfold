@@ -1,0 +1,15 @@
+{
+  "name": "zero-to-linearfold",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "tsup && node dist/index.mjs"
+  },
+  "devDependencies": {
+    "tsup": "^7.0.0",
+    "typescript": "^5.1.3"
+  }
+}
